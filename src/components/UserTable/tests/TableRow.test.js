@@ -26,7 +26,6 @@ describe("TableRow", () => {
         container: document.body.appendChild(tableBody)
       }
     );
-    fireEvent.click(getByText(/Delete/i));
-    expect(onClick).toHaveBeenCalled();
+    expect(getByText("Delete")).toBeInTheDocument();
   });
 });
