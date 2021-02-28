@@ -32,7 +32,7 @@ export default function LoginContainer() {
       setIsSubmitted({ status: "success", message: "Succesful Login!" });
       setTimeout(() => {
         history.push("/");
-      }, 3000);
+      }, 1500);
     } else {
       setIsSubmitted({ status: "danger", message: res.error });
     }
