@@ -1,0 +1,33 @@
+.userDetailsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.userDetailsContainer {
+  width: 800px;
+  min-height: 600px;
+  padding: 20px 0;
+}
+
+.textContainer {
+  padding: 10px;
+}
+
+.leftAligned {
+  text-align: left;
+}
+
+.topSpacing {
+  margin-top: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.errorText {
+  color: red;
+}

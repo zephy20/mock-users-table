@@ -1,0 +1,46 @@
+.mainWrapper {
+  padding: 20px;
+  box-shadow: 0px 0px 16px -7px #857c7c;
+  overflow: auto;
+}
+
+.tableWrapper {
+  margin: 0 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.leftSpacing {
+  margin-left: 10px;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.topSpacing {
+  margin-top: 10px;
+}
+
+.bottomSpacing {
+  margin-bottom: 10px;
+}
+
+.textDecorationNone {
+  color: white;
+  text-decoration: none;
+}
+
+.alignRight {
+  text-align: right;
+}
